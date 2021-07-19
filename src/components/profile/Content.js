@@ -26,7 +26,7 @@ export default function Content() {
                             </div>
                             <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:self-center flex justify-center mt-10 lg:justify-end lg:mt-0">
                                 <Button color="lightBlue" ripple="light">
-                                    Conntect
+                                    Contactar
                                 </Button>
                             </div>
                             <div className="w-full lg:w-4/12 px-4 lg:order-1">
@@ -36,25 +36,10 @@ export default function Content() {
                                             22
                                         </span>
                                         <span className="text-sm text-gray-700">
-                                            Friends
+                                            Seguidores
                                         </span>
                                     </div>
-                                    <div className="mr-4 p-3 text-center">
-                                        <span className="text-xl font-bold block uppercase tracking-wide text-gray-900">
-                                            10
-                                        </span>
-                                        <span className="text-sm text-gray-700">
-                                            Photos
-                                        </span>
-                                    </div>
-                                    <div className="lg:mr-4 p-3 text-center">
-                                        <span className="text-xl font-bold block uppercase tracking-wide text-gray-900">
-                                            89
-                                        </span>
-                                        <span className="text-sm text-gray-700">
-                                            Comments
-                                        </span>
-                                    </div>
+                                 
                                 </div>
                             </div>
                         </div>
@@ -63,16 +48,19 @@ export default function Content() {
                             <H3 color="gray">Jenna Stones</H3>
                             <div className="mt-0 mb-2 text-gray-700 font-medium flex items-center justify-center gap-2">
                                 <Icon name="place" size="xl" />
-                                Los Angeles, California
+                                Santiago, Chile
                             </div>
                             <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
-                                <Icon name="work" size="xl" />
-                                Solution Manager - Creative Tim Officer
+                                <Icon name="watch_later" size="xl" />
+                                Fecha de ingreso: 12/10/20
                             </div>
-                            <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
-                                <Icon name="account_balance" size="xl" />
-                                University of Computer Science
+
+                            <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
+                                <Icon name="edit_calendar" size="xl" />
+                               Cantidad de arriendos: 5
                             </div>
+                            
+                            
                         </div>
 
                         <div className="mb-10 py-2 border-t border-gray-200 text-center">
@@ -91,13 +79,7 @@ export default function Content() {
                                         href="#pablo"
                                         onClick={(e) => e.preventDefault()}
                                     >
-                                        <Button
-                                            color="lightBlue"
-                                            buttonType="link"
-                                            ripple="dark"
-                                        >
-                                            Show more
-                                        </Button>
+                                     
                                     </a>
                                 </div>
                             </div>

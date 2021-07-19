@@ -19,7 +19,7 @@ export default function Login() {
                 <Card>
                     <CardHeader color="lightBlue">
                         <H5 color="white" style={{ marginBottom: 0 }}>
-                            Login
+                          Login
                         </H5>
                     </CardHeader>
 
@@ -28,7 +28,7 @@ export default function Login() {
                             <InputIcon
                                 type="email"
                                 color="lightBlue"
-                                placeholder="Email Address"
+                                placeholder="Correo"
                                 iconName="email"
                             />
                         </div>
@@ -36,14 +36,14 @@ export default function Login() {
                             <InputIcon
                                 type="password"
                                 color="lightBlue"
-                                placeholder="Password"
+                                placeholder="Contraseña"
                                 iconName="lock"
                             />
                         </div>
                         <div className="mb-4 px-4">
                             <Checkbox
                                 color="lightBlue"
-                                text="Remember Me"
+                                text="Recordarme"
                                 id="remember"
                             />
                         </div>
@@ -56,7 +56,7 @@ export default function Login() {
                                 size="lg"
                                 ripple="dark"
                             >
-                                Get Started
+                                Ingresar
                             </Button>
                         </div>
                     </CardFooter>

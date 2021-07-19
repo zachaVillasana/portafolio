@@ -21,7 +21,7 @@ export default function DefaultNavbar() {
             <NavbarContainer>
                 <NavbarWrapper>
                     <a
-                        href=""
+                        href="http://localhost:3000"
                         target="_blank"
                         rel="noreferrer"
                     >

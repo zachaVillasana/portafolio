@@ -19,3 +19,30 @@
         --tw-translate-x: -50% !important;
     }
 }
+
+.form-check {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.btn-arriendo button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.registro {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+.bg-landing-background{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.644)), url(https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg);
+}
+

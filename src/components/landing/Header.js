@@ -11,7 +11,7 @@ export default function Header() {
                         <H2 color="white">Real Relax</H2>
                         <div className="text-gray-200">
                             <LeadText color="gray-200">
-                                Tu relajo real esta con nosotros
+                                Tu relajo real está con nosotros.
                             </LeadText>
                         </div>
                     </div>

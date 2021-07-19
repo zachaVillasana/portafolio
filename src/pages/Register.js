@@ -18,24 +18,44 @@ export default function Register() {
                 <Card>
                     <CardHeader color="lightBlue">
                         <H5 color="white" style={{ marginBottom: 0 }}>
-                            Register
+                            Registrarse
                         </H5>
                     </CardHeader>
 
                     <CardBody>
-                        <div className="mb-10 px-4">
+                       <div className="registro">
+                       <div className="mb-10 px-4">
                             <InputIcon
                                 type="text"
                                 color="lightBlue"
-                                placeholder="Full Name"
+                                placeholder="Nombres"
                                 iconName="account_circle"
                             />
                         </div>
                         <div className="mb-10 px-4">
                             <InputIcon
+                                type="text"
+                                color="lightBlue"
+                                placeholder="Apellidos"
+                                iconName="account_circle"
+                            />
+                        </div>
+                       </div>
+
+                        <div className="mb-10 px-4">
+                            <InputIcon
+                                type="number"
+                                color="lightBlue"
+                                placeholder="Rut"
+                                iconName="contact_mail"
+                            />
+                        </div>
+
+                        <div className="mb-10 px-4">
+                            <InputIcon
                                 type="email"
                                 color="lightBlue"
-                                placeholder="Email Address"
+                                placeholder="Correo"
                                 iconName="email"
                             />
                         </div>
@@ -43,7 +63,7 @@ export default function Register() {
                             <InputIcon
                                 type="password"
                                 color="lightBlue"
-                                placeholder="Password"
+                                placeholder="Contraseña"
                                 iconName="lock"
                             />
                         </div>
@@ -56,7 +76,7 @@ export default function Register() {
                                 size="lg"
                                 ripple="dark"
                             >
-                                Register
+                                Registrarse
                             </Button>
                         </div>
                     </CardFooter>

@@ -12,7 +12,7 @@ export default function LandingTeamCard({ img, name, position }) {
                 <div className="pt-6 text-center">
                     <H6 color="gray">{name}</H6>
                     <Paragraph color="blueGray">{position}</Paragraph>
-                    <div className="flex items-center justify-center">
+                    <div className="flex items-center justify-center btn-arriendo">
                     
                         <Button
                             color="blue"
@@ -25,7 +25,7 @@ export default function LandingTeamCard({ img, name, position }) {
                             <Icon
                            name="calendar_today"
                            size="2xl"
-                            color="red"
+                            color="blue"
                                     />
                             <a>Arrendar</a>
                         </Button>
